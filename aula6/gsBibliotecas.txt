@@ -1,0 +1,28 @@
+# Manipulação de dados
+import pandas as pd
+# Visualização
+import plotly.express as px
+import plotly.graph_objects as go
+import plotly.figure_factory as ff
+from plotly.subplots import make_subplots
+# Pré-processamento
+from sklearn.preprocessing import (
+    LabelEncoder,
+    StandardScaler
+)
+from sklearn.pipeline import Pipeline
+# Treinamento
+from sklearn.model_selection import(
+    train_test_split,
+    GridSearchCV)
+# Avaliação
+from sklearn.metrics import (
+    accuracy_score,
+    classification_report,
+    confusion_matrix,)
+# Algoritmos
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.svm import SVC
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.linear_model import LogisticRegression
+from xgboost import XGBClassifier
