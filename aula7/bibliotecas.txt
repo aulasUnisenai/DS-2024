@@ -1,0 +1,13 @@
+!pip install kneed
+import pandas as pd
+import plotly.express as px
+import matplotlib.pyplot as plt
+import seaborn as sns
+from sklearn.preprocessing import (
+    OneHotEncoder,
+    StandardScaler)
+from sklearn.cluster import KMeans
+from sklearn.compose import ColumnTransformer
+from sklearn.pipeline import Pipeline
+from kneed import KneeLocator
+import numpy as np
