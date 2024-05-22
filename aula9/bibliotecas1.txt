@@ -1,0 +1,18 @@
+# Bibliotecas
+import pandas as pd
+import nltk
+from nltk.corpus import stopwords
+from nltk.stem import WordNetLemmatizer
+from nltk.corpus import wordnet
+import warnings
+import numpy as np
+warnings.filterwarnings('ignore')
+import re
+import spacy
+
+# Importar módulos
+nltk.download('punkt')
+nltk.download('stopwords')
+nltk.download('averaged_perceptron_tagger')
+nltk.download('wordnet')
+nltk.download('vader_lexicon')

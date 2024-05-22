@@ -1,0 +1,8 @@
+!pip install --upgrade plotly
+!pip install -U kaleido
+
+from nltk.sentiment.vader import SentimentIntensityAnalyzer
+import plotly.offline as py
+import plotly.graph_objs as go
+import plotly
+import kaleido
